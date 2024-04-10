@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import userProfile from "../../assets/user.png"
 import { useContext } from "react";
 import { AuthContext } from "../Context/AuthProvider";
@@ -25,7 +25,7 @@ const Navbar = () => {
         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
       </div>
       <ul tabIndex={0} className="menu text-xl w-[350px] menu-sm dropdown-content mt-3 z-[1] p-2 shadow  rounded-box ">
-      <li><a>Home</a></li>
+      <NavLink to='/' className={({isActive}) => isActive ? 'text-primary font-bold' : 'font-bold'}>Home</NavLink>
       <li>
         <details>
           <summary>Properties</summary>
@@ -97,19 +97,19 @@ const Navbar = () => {
           </ul>
         </details>
       </li>
-      <li><a>Services</a></li>
-      <li><a>About Us</a></li>
-      <li><a>Update Profile</a></li>
+      <NavLink className={({isActive}) => isActive ? 'text-primary font-bold' : 'font-bold'}>Services</NavLink>
+      <NavLink className={({isActive}) => isActive ? 'text-primary font-bold' : 'font-bold'}>About Us</NavLink>
+      <NavLink to='/updateProfile' className={({isActive}) => isActive ? 'text-primary font-bold' : 'font-bold'}>Update Profile</NavLink>
       </ul>
     </div>
     <Link to='/' className="btn btn-ghost text-2xl font-bold">ProfitPulse</Link>
   </div>
   <div className="navbar-center hidden lg:flex">
-    <ul className="menu menu-horizontal px-1 text-base text-slate-600 font-semibold">
-      <li><Link to='/'>Home</Link></li>
+    <ul className="menu menu-horizontal px-1 gap-5 items-center text-base text-slate-600 font-semibold">
+      <NavLink to='/' className={({isActive}) => isActive ? 'text-primary font-bold' : 'font-bold'}>Home</NavLink>
       <li>
-        <details >
-          <summary>Properties</summary>
+        <details>
+          <summary><a>Properties</a></summary>
           <ul className="p-2 w-[350px] bg-slate-500 bg-opacity-40">
             <li>
               <details className="">
@@ -178,9 +178,9 @@ const Navbar = () => {
           </ul>
         </details>
       </li>
-      <li><a>Services</a></li>
-      <li><a>About Us</a></li>
-      <li><Link to='/updateProfile'>Update Profile</Link></li>
+      <NavLink className={({isActive}) => isActive ? 'text-primary font-bold' : 'font-bold'}>Services</NavLink>
+      <NavLink className={({isActive}) => isActive ? 'text-primary font-bold' : 'font-bold'}>About Us</NavLink>
+      <NavLink to='/updateProfile' className={({isActive}) => isActive ? 'text-primary font-bold' : 'font-bold'}>Update Profile</NavLink>
     </ul>
   </div>
   <div className="navbar-end ">
@@ -203,7 +203,7 @@ const Navbar = () => {
                :
                <Link to='/login'><button className="btn text-lg font-bold ">Login</button></Link>}
                </li>
-            <li><a>Submenu 2</a></li>
+            <NavLink><a>Submenu 2</a></NavLink>
             <li><a>Submenu 2</a></li>
             <li><a>Submenu 2</a></li>
             <li><a>Submenu 2</a></li>
