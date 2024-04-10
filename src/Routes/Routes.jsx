@@ -3,6 +3,7 @@ import Home from "../Pages/Home/Home";
 import Root from "../layout/Root";
 import BannerLogRegister from "../Pages/Home/BannerLogRegister/BannerLogRegister";
 import BannerLog from "../Pages/Home/BannerLog/BannerLog";
+import UpdateProfile from "../Pages/UpdateProfile/UpdateProfile";
 
 
 const router = createBrowserRouter([
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: '/register',
         element: <BannerLog></BannerLog>
+      },
+      {
+        path: '/updateProfile',
+        element: <UpdateProfile></UpdateProfile>
       }
     ]
   },
