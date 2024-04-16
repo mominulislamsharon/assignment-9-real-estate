@@ -1,0 +1,110 @@
+[
+    {
+      "estate_title": "Metropolis Concert Hall",
+      "id": 1,
+      "segment_name": "Concert Hall",
+      "description": "A state-of-the-art concert hall designed to host large-scale music and performance events.",
+      "price": "$15,000,000",
+      "status": "sale",
+      "area": "50,000 sq ft",
+      "location": "Downtown, Metropolis",
+      "facilities": ["stage", "seating area", "backstage dressing rooms"],
+      "view_property_button": "View Property"
+    },
+    {
+      "estate_title": "City Center Theater",
+      "id": 2,
+      "segment_name": "Theater",
+      "description": "A historic theater in the heart of the city, offering a classic ambiance for plays and shows.",
+      "price": "$12,000 per month",
+      "status": "rent",
+      "area": "20,000 sq ft",
+      "location": "City Center, Metropolis",
+      "facilities": ["seating area", "stage", "box office"],
+      "view_property_button": "View Property"
+    },
+    {
+      "estate_title": "Riverside Event Pavilion",
+      "id": 3,
+      "segment_name": "Event Pavilion",
+      "description": "A versatile event pavilion by the river, suitable for a wide range of events such as weddings and corporate functions.",
+      "price": "$5,500,000",
+      "status": "sale",
+      "area": "40,000 sq ft",
+      "location": "Riverside, Metropolis",
+      "facilities": ["stage", "outdoor space", "catering facilities"],
+      "view_property_button": "View Property"
+    },
+    {
+      "estate_title": "East End Comedy Club",
+      "id": 4,
+      "segment_name": "Comedy Club",
+      "description": "A popular comedy club in the east end of the city, known for its intimate setting and live comedy shows.",
+      "price": "$9,000 per month",
+      "status": "rent",
+      "area": "4,000 sq ft",
+      "location": "East End, Metropolis",
+      "facilities": ["stage", "bar", "seating area"],
+      "view_property_button": "View Property"
+    },
+    {
+      "estate_title": "Westside Nightclub",
+      "id": 5,
+      "segment_name": "Nightclub",
+      "description": "A trendy nightclub in the west side of the city, offering a vibrant nightlife experience with music and dance floors.",
+      "price": "$3,500,000",
+      "status": "sale",
+      "area": "6,000 sq ft",
+      "location": "Westside, Metropolis",
+      "facilities": ["dance floor", "bar", "VIP lounge"],
+      "view_property_button": "View Property"
+    },
+    {
+      "estate_title": "Central Park Amphitheater",
+      "id": 6,
+      "segment_name": "Amphitheater",
+      "description": "An outdoor amphitheater in the central park, perfect for live music performances and outdoor events.",
+      "price": "$7,500 per month",
+      "status": "rent",
+      "area": "30,000 sq ft",
+      "location": "Central Park, Metropolis",
+      "facilities": ["stage", "seating area", "green room"],
+      "view_property_button": "View Property"
+    },
+    {
+      "estate_title": "Tech Valley Gaming Arena",
+      "id": 7,
+      "segment_name": "Gaming Arena",
+      "description": "A modern gaming arena in Tech Valley, designed for e-sports tournaments and gaming events.",
+      "price": "$6,000,000",
+      "status": "sale",
+      "area": "35,000 sq ft",
+      "location": "Tech Valley, Metropolis",
+      "facilities": ["stage", "seating area", "high-tech setup"],
+      "view_property_button": "View Property"
+    },
+    {
+      "estate_title": "Uptown Art Gallery",
+      "id": 8,
+      "segment_name": "Art Gallery",
+      "description": "An upscale art gallery in the uptown district, featuring exhibition spaces and a modern aesthetic.",
+      "price": "$10,000 per month",
+      "status": "rent",
+      "area": "5,000 sq ft",
+      "location": "Uptown, Metropolis",
+      "facilities": ["exhibition space", "gallery rooms", "cafe"],
+      "view_property_button": "View Property"
+    },
+    {
+      "estate_title": "Hilltop Outdoor Cinema",
+      "id": 9,
+      "segment_name": "Outdoor Cinema",
+      "description": "An open-air cinema on the hilltop, offering a unique movie experience with panoramic views.",
+      "price": "$2,500,000",
+      "status": "sale",
+      "area": "8,000 sq ft",
+      "location": "Hilltop, Metropolis",
+      "facilities": ["screening area", "seating area", "concession stand"],
+      "view_property_button": "View Property"
+    }
+  ]

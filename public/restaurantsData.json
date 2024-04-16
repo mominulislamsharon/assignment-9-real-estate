@@ -1,0 +1,110 @@
+[
+    {
+      "estate_title": "Gourmet Delights Bistro",
+      "id": 1,
+      "segment_name": "Fine Dining",
+      "description": "An upscale bistro offering gourmet cuisine and a luxurious dining experience.",
+      "price": "$1,500,000",
+      "status": "sale",
+      "area": "3,500 sq ft",
+      "location": "Downtown, Metropolis",
+      "facilities": ["dining room", "fully equipped kitchen", "outdoor seating"],
+      "view_property_button": "View Property"
+    },
+    {
+      "estate_title": "City Center Cafe",
+      "id": 2,
+      "segment_name": "Casual Dining",
+      "description": "A casual cafe in the heart of the city, offering a cozy atmosphere and a variety of menu options.",
+      "price": "$8,000 per month",
+      "status": "rent",
+      "area": "2,200 sq ft",
+      "location": "City Center, Metropolis",
+      "facilities": ["seating area", "kitchen", "coffee bar"],
+      "view_property_button": "View Property"
+    },
+    {
+      "estate_title": "Riverside Grill House",
+      "id": 3,
+      "segment_name": "Steakhouse",
+      "description": "A premium grill house by the river, featuring a rustic ambiance and high-quality steakhouse cuisine.",
+      "price": "$2,000,000",
+      "status": "sale",
+      "area": "4,000 sq ft",
+      "location": "Riverside, Metropolis",
+      "facilities": ["dining area", "bar", "patio seating"],
+      "view_property_button": "View Property"
+    },
+    {
+      "estate_title": "East End Pizzeria",
+      "id": 4,
+      "segment_name": "Fast Casual",
+      "description": "A popular pizzeria in the east end of the city, known for its delicious pizza and quick service.",
+      "price": "$5,000 per month",
+      "status": "rent",
+      "area": "2,500 sq ft",
+      "location": "East End, Metropolis",
+      "facilities": ["dining room", "kitchen", "takeout counter"],
+      "view_property_button": "View Property"
+    },
+    {
+      "estate_title": "Westside Diner",
+      "id": 5,
+      "segment_name": "Family Dining",
+      "description": "A family-friendly diner offering classic comfort food and a welcoming atmosphere.",
+      "price": "$1,800,000",
+      "status": "sale",
+      "area": "3,000 sq ft",
+      "location": "Westside, Metropolis",
+      "facilities": ["dining room", "kitchen", "parking lot"],
+      "view_property_button": "View Property"
+    },
+    {
+      "estate_title": "Central Street Asian Bistro",
+      "id": 6,
+      "segment_name": "Asian Fusion",
+      "description": "An Asian bistro in the central district, featuring a fusion of Asian cuisines and modern decor.",
+      "price": "$7,500 per month",
+      "status": "rent",
+      "area": "3,000 sq ft",
+      "location": "Central Street, Metropolis",
+      "facilities": ["dining area", "kitchen", "bar"],
+      "view_property_button": "View Property"
+    },
+    {
+      "estate_title": "Southgate Seafood Shack",
+      "id": 7,
+      "segment_name": "Seafood",
+      "description": "A seafood restaurant in the south gate area, offering fresh catches and a nautical theme.",
+      "price": "$2,200,000",
+      "status": "sale",
+      "area": "4,500 sq ft",
+      "location": "Southgate, Metropolis",
+      "facilities": ["dining room", "kitchen", "outdoor deck"],
+      "view_property_button": "View Property"
+    },
+    {
+      "estate_title": "Uptown Vegan Eatery",
+      "id": 8,
+      "segment_name": "Vegan",
+      "description": "A vegan eatery in the uptown area, serving plant-based dishes in a trendy setting.",
+      "price": "$9,000 per month",
+      "status": "rent",
+      "area": "2,800 sq ft",
+      "location": "Uptown, Metropolis",
+      "facilities": ["dining area", "kitchen", "terrace"],
+      "view_property_button": "View Property"
+    },
+    {
+      "estate_title": "Hilltop Fine Dining",
+      "id": 9,
+      "segment_name": "Fine Dining",
+      "description": "An upscale fine dining restaurant on the hilltop, offering exquisite dishes and panoramic views.",
+      "price": "$3,000,000",
+      "status": "sale",
+      "area": "5,000 sq ft",
+      "location": "Hilltop, Metropolis",
+      "facilities": ["dining room", "kitchen", "private dining area"],
+      "view_property_button": "View Property"
+    }
+  ]

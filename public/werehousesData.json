@@ -1,0 +1,110 @@
+[
+    {
+      "estate_title": "City Logistics Hub",
+      "id": 1,
+      "segment_name": "Class A",
+      "description": "A modern warehouse located near major transportation routes, offering high security and ample loading bays.",
+      "price": "$2,500,000",
+      "status": "sale",
+      "area": "10,000 sq ft",
+      "location": "Industrial Park, Metropolis",
+      "facilities": ["loading docks", "office space", "24/7 security"],
+      "view_property_button": "View Property"
+    },
+    {
+      "estate_title": "Northside Distribution Center",
+      "id": 2,
+      "segment_name": "Class B",
+      "description": "A warehouse in the north side of the city with spacious interiors and excellent road access.",
+      "price": "$15,000 per month",
+      "status": "rent",
+      "area": "20,000 sq ft",
+      "location": "Northside, Metropolis",
+      "facilities": ["storage racks", "temperature control", "employee lounge"],
+      "view_property_button": "View Property"
+    },
+    {
+      "estate_title": "Riverside Warehouse",
+      "id": 3,
+      "segment_name": "Class A",
+      "description": "A premium warehouse facility by the river with dock access and large storage capacity.",
+      "price": "$3,200,000",
+      "status": "sale",
+      "area": "15,000 sq ft",
+      "location": "Riverside, Metropolis",
+      "facilities": ["loading dock", "forklift access", "surveillance system"],
+      "view_property_button": "View Property"
+    },
+    {
+      "estate_title": "Westside Storage Complex",
+      "id": 4,
+      "segment_name": "Class C",
+      "description": "A budget-friendly warehouse complex with essential amenities, ideal for small businesses.",
+      "price": "$10,000 per month",
+      "status": "rent",
+      "area": "12,000 sq ft",
+      "location": "Westside, Metropolis",
+      "facilities": ["office space", "security fencing", "ample parking"],
+      "view_property_button": "View Property"
+    },
+    {
+      "estate_title": "Central Logistics Depot",
+      "id": 5,
+      "segment_name": "Class A",
+      "description": "A central logistics depot with state-of-the-art facilities and high-tech storage solutions.",
+      "price": "$4,500,000",
+      "status": "sale",
+      "area": "18,000 sq ft",
+      "location": "Central Avenue, Metropolis",
+      "facilities": ["loading bays", "climate control", "freight elevator"],
+      "view_property_button": "View Property"
+    },
+    {
+      "estate_title": "East End Storage Facility",
+      "id": 6,
+      "segment_name": "Class B",
+      "description": "A large warehouse facility in the east end of the city, offering versatile storage options.",
+      "price": "$13,000 per month",
+      "status": "rent",
+      "area": "17,000 sq ft",
+      "location": "East End, Metropolis",
+      "facilities": ["high ceilings", "sprinkler system", "employee break room"],
+      "view_property_button": "View Property"
+    },
+    {
+      "estate_title": "Southgate Distribution Hub",
+      "id": 7,
+      "segment_name": "Class A",
+      "description": "A well-equipped warehouse with easy access to major highways, designed for efficient distribution.",
+      "price": "$3,800,000",
+      "status": "sale",
+      "area": "20,000 sq ft",
+      "location": "Southgate, Metropolis",
+      "facilities": ["forklift loading", "security cameras", "loading dock"],
+      "view_property_button": "View Property"
+    },
+    {
+      "estate_title": "West Bay Storage Center",
+      "id": 8,
+      "segment_name": "Class C",
+      "description": "A budget-friendly storage center with flexible lease options and essential amenities.",
+      "price": "$8,000 per month",
+      "status": "rent",
+      "area": "14,000 sq ft",
+      "location": "West Bay, Metropolis",
+      "facilities": ["loading ramp", "staff rest area", "security gate"],
+      "view_property_button": "View Property"
+    },
+    {
+      "estate_title": "Hilltop Distribution Center",
+      "id": 9,
+      "segment_name": "Class B",
+      "description": "A spacious warehouse on the hilltop, offering great views and ample storage space.",
+      "price": "$11,000 per month",
+      "status": "rent",
+      "area": "16,000 sq ft",
+      "location": "Hilltop, Metropolis",
+      "facilities": ["loading bays", "office area", "security system"],
+      "view_property_button": "View Property"
+    }
+  ]

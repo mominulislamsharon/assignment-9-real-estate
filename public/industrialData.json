@@ -1,0 +1,110 @@
+[
+    {
+      "estate_title": "Metro Industrial Hub",
+      "id": 1,
+      "segment_name": "Class A",
+      "description": "A high-end industrial facility with ample space for production and distribution.",
+      "price": "$4,000,000",
+      "status": "sale",
+      "area": "40,000 sq ft",
+      "location": "Industrial Park, Metropolis",
+      "facilities": ["loading docks", "warehouse space", "security system"],
+      "view_property_button": "View Property"
+    },
+    {
+      "estate_title": "Westside Manufacturing Plant",
+      "id": 2,
+      "segment_name": "Class B",
+      "description": "A versatile manufacturing plant in the west side of the city, ideal for various types of production.",
+      "price": "$18,000 per month",
+      "status": "rent",
+      "area": "35,000 sq ft",
+      "location": "Westside, Metropolis",
+      "facilities": ["assembly lines", "office space", "employee parking"],
+      "view_property_button": "View Property"
+    },
+    {
+      "estate_title": "Riverside Industrial Complex",
+      "id": 3,
+      "segment_name": "Class A",
+      "description": "A prime industrial facility by the river, offering easy transportation and shipping access.",
+      "price": "$5,000,000",
+      "status": "sale",
+      "area": "50,000 sq ft",
+      "location": "Riverside, Metropolis",
+      "facilities": ["dock access", "storage tanks", "high-speed internet"],
+      "view_property_button": "View Property"
+    },
+    {
+      "estate_title": "East End Production Facility",
+      "id": 4,
+      "segment_name": "Class C",
+      "description": "A cost-effective production facility in the east end of the city, ideal for small to medium-scale manufacturing.",
+      "price": "$14,000 per month",
+      "status": "rent",
+      "area": "30,000 sq ft",
+      "location": "East End, Metropolis",
+      "facilities": ["assembly lines", "warehousing space", "loading bays"],
+      "view_property_button": "View Property"
+    },
+    {
+      "estate_title": "Downtown Industrial Park",
+      "id": 5,
+      "segment_name": "Class A",
+      "description": "A central industrial park offering a range of production and storage options.",
+      "price": "$6,000,000",
+      "status": "sale",
+      "area": "60,000 sq ft",
+      "location": "Downtown, Metropolis",
+      "facilities": ["warehousing space", "loading docks", "office space"],
+      "view_property_button": "View Property"
+    },
+    {
+      "estate_title": "Southside Logistics Depot",
+      "id": 6,
+      "segment_name": "Class B",
+      "description": "A logistics depot in the south side of the city, with convenient access to major highways.",
+      "price": "$19,000 per month",
+      "status": "rent",
+      "area": "45,000 sq ft",
+      "location": "Southside, Metropolis",
+      "facilities": ["loading docks", "truck access", "employee break room"],
+      "view_property_button": "View Property"
+    },
+    {
+      "estate_title": "Tech Valley Production Center",
+      "id": 7,
+      "segment_name": "Class A",
+      "description": "A modern production center in Tech Valley, equipped with advanced facilities and technologies.",
+      "price": "$5,500,000",
+      "status": "sale",
+      "area": "55,000 sq ft",
+      "location": "Tech Valley, Metropolis",
+      "facilities": ["climate-controlled areas", "assembly lines", "office space"],
+      "view_property_button": "View Property"
+    },
+    {
+      "estate_title": "Northside Warehouse Complex",
+      "id": 8,
+      "segment_name": "Class C",
+      "description": "A budget-friendly warehouse complex suitable for small businesses and startups.",
+      "price": "$10,000 per month",
+      "status": "rent",
+      "area": "25,000 sq ft",
+      "location": "Northside, Metropolis",
+      "facilities": ["storage space", "loading docks", "security fencing"],
+      "view_property_button": "View Property"
+    },
+    {
+      "estate_title": "Central Processing Facility",
+      "id": 9,
+      "segment_name": "Class B",
+      "description": "A central processing facility with versatile production capabilities and flexible storage options.",
+      "price": "$17,000 per month",
+      "status": "rent",
+      "area": "40,000 sq ft",
+      "location": "Central Avenue, Metropolis",
+      "facilities": ["assembly lines", "loading bays", "office area"],
+      "view_property_button": "View Property"
+    }
+  ]

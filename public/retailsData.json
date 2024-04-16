@@ -1,0 +1,110 @@
+[
+    {
+      "estate_title": "Main Street Plaza",
+      "id": 1,
+      "segment_name": "Class A",
+      "description": "A prime retail space located on Main Street with high foot traffic and modern amenities.",
+      "price": "$3,000,000",
+      "status": "sale",
+      "area": "3000 sq ft",
+      "location": "Main Street, Metropolis",
+      "facilities": ["storage room", "customer parking", "high visibility storefront"],
+      "view_property_button": "View Property"
+    },
+    {
+      "estate_title": "Market Square Shops",
+      "id": 2,
+      "segment_name": "Class B",
+      "description": "A retail space in a bustling market area, ideal for small businesses and boutique shops.",
+      "price": "$2,000 per month",
+      "status": "rent",
+      "area": "2000 sq ft",
+      "location": "Market Square, Metropolis",
+      "facilities": ["storage space", "restroom", "loading dock"],
+      "view_property_button": "View Property"
+    },
+    {
+      "estate_title": "Riverside Retail Center",
+      "id": 3,
+      "segment_name": "Class A",
+      "description": "A luxurious retail center by the river, featuring high-end shops and elegant design.",
+      "price": "$4,500,000",
+      "status": "sale",
+      "area": "4500 sq ft",
+      "location": "Riverside, Metropolis",
+      "facilities": ["outdoor seating area", "valet parking", "security system"],
+      "view_property_button": "View Property"
+    },
+    {
+      "estate_title": "Uptown Shopping Center",
+      "id": 4,
+      "segment_name": "Class B",
+      "description": "A vibrant shopping center in the uptown area, perfect for a variety of retail businesses.",
+      "price": "$2,800 per month",
+      "status": "rent",
+      "area": "2800 sq ft",
+      "location": "Uptown, Metropolis",
+      "facilities": ["customer restrooms", "employee lounge", "large display windows"],
+      "view_property_button": "View Property"
+    },
+    {
+      "estate_title": "Westside Retail Park",
+      "id": 5,
+      "segment_name": "Class C",
+      "description": "An affordable retail park in the west side of the city, suitable for startups and small retailers.",
+      "price": "$1,800,000",
+      "status": "sale",
+      "area": "1800 sq ft",
+      "location": "Westside, Metropolis",
+      "facilities": ["employee parking", "delivery entrance", "flexible floor plan"],
+      "view_property_button": "View Property"
+    },
+    {
+      "estate_title": "Central Avenue Shops",
+      "id": 6,
+      "segment_name": "Class A",
+      "description": "A prestigious retail space on Central Avenue with excellent access to major attractions.",
+      "price": "$5,000 per month",
+      "status": "rent",
+      "area": "3000 sq ft",
+      "location": "Central Avenue, Metropolis",
+      "facilities": ["high ceilings", "customer parking", "HVAC system"],
+      "view_property_button": "View Property"
+    },
+    {
+      "estate_title": "East End Retail Mall",
+      "id": 7,
+      "segment_name": "Class B",
+      "description": "A retail mall in the east end of the city with ample parking and easy access to public transportation.",
+      "price": "$3,200,000",
+      "status": "sale",
+      "area": "3200 sq ft",
+      "location": "East End, Metropolis",
+      "facilities": ["customer restrooms", "elevator access", "security cameras"],
+      "view_property_button": "View Property"
+    },
+    {
+      "estate_title": "Northside Shopping District",
+      "id": 8,
+      "segment_name": "Class B",
+      "description": "A shopping district in the north side of the city, featuring diverse retail options.",
+      "price": "$2,500 per month",
+      "status": "rent",
+      "area": "2500 sq ft",
+      "location": "Northside, Metropolis",
+      "facilities": ["wide storefront", "storage area", "kitchenette"],
+      "view_property_button": "View Property"
+    },
+    {
+      "estate_title": "Southgate Plaza",
+      "id": 9,
+      "segment_name": "Class A",
+      "description": "A retail plaza in the south gate area, perfect for high-end stores and luxury boutiques.",
+      "price": "$5,500,000",
+      "status": "sale",
+      "area": "5500 sq ft",
+      "location": "Southgate, Metropolis",
+      "facilities": ["VIP lounge", "valet service", "elevator access"],
+      "view_property_button": "View Property"
+    }
+  ]
