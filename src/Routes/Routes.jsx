@@ -4,6 +4,7 @@ import Root from "../layout/Root";
 import BannerLogRegister from "../Pages/Home/BannerLogRegister/BannerLogRegister";
 import BannerLog from "../Pages/Home/BannerLog/BannerLog";
 import UpdateProfile from "../Pages/UpdateProfile/UpdateProfile";
+import Details from "../components/OfficeDetails/Details";
 
 
 const router = createBrowserRouter([
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home></Home>,
+      },
+      {
+        path:'/officeDetails/:id',
+        element: <Details></Details>,
       },
       {
         path:'/login',

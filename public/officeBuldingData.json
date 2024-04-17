@@ -2,9 +2,10 @@
     {
       "estate_title": "Downtown Executive Plaza",
       "id": 1,
-      "segment_name": "Class A",
+      "segment_name": " Office buildings",
+      "image": "https://i.postimg.cc/3r9CpHZN/pexels-pixabay-260931.jpg",
       "description": "A premium office building located in the heart of downtown with modern amenities and high-tech facilities.",
-      "price": "$5,000,000",
+      "price": "$50,000,000",
       "status": "sale",
       "area": "5000 sq ft",
       "location": "Downtown, Metropolis",
@@ -14,9 +15,10 @@
     {
       "estate_title": "Riverfront Business Tower",
       "id": 2,
-      "segment_name": "Class A",
+      "segment_name": " retail spaces",
+      "image": "https://i.postimg.cc/fyYG2RWG/clark-street-mercantile-P3p-I6xzovu0-unsplash.jpg",
       "description": "A luxurious office building with river views and state-of-the-art facilities.",
-      "price": "$3,500 per month",
+      "price": "$3,500 (per month)",
       "status": "rent",
       "area": "3500 sq ft",
       "location": "Riverfront, Metropolis",
@@ -26,7 +28,8 @@
     {
       "estate_title": "Greenfield Corporate Hub",
       "id": 3,
-      "segment_name": "Class B",
+      "segment_name": "warehouses",
+      "image": "https://i.postimg.cc/43bhgzLy/pexels-pixabay-221047.jpg",
       "description": "An eco-friendly office building with modern design and sustainable features.",
       "price": "$4,000,000",
       "status": "sale",
@@ -38,9 +41,10 @@
     {
       "estate_title": "Tech Park Towers",
       "id": 4,
-      "segment_name": "Class A",
+      "segment_name": "industrial",
+      "image": "https://i.postimg.cc/nhKLjnvw/hotel.jpg",
       "description": "A state-of-the-art office building in the tech district, ideal for innovative businesses.",
-      "price": "$4,800 per month",
+      "price": "$4,800 (per month)",
       "status": "rent",
       "area": "4800 sq ft",
       "location": "Tech District, Metropolis",
@@ -48,9 +52,10 @@
       "view_property_button": "View Property"
     },
     {
-      "estate_title": "Old Town Business Center",
+      "estate_title": "New Town Business Center",
       "id": 5,
-      "segment_name": "Class B",
+      "segment_name": "facilities",
+      "image": "https://i.postimg.cc/LsBvbgjB/clean-empty-hospital-ward-ready-receive-patients-reflecting-modern-medical-care.jpg",
       "description": "An affordable office building in a historic district, perfect for small businesses and startups.",
       "price": "$2,000,000",
       "status": "sale",
@@ -62,9 +67,10 @@
     {
       "estate_title": "Sunrise Office Complex",
       "id": 6,
-      "segment_name": "Class B",
+      "segment_name": "restaurants",
+      "image": "https://imgbb.host/images/GMIu1.jpeg",
       "description": "A versatile office complex with flexible lease options and ample parking.",
-      "price": "$3,200 per month",
+      "price": "$3,200 (per month)",
       "status": "rent",
       "area": "3200 sq ft",
       "location": "Sunrise, Metropolis",
@@ -74,7 +80,8 @@
     {
       "estate_title": "Midtown Business Plaza",
       "id": 7,
-      "segment_name": "Class A",
+      "segment_name": "entertainment venues",
+      "image": "https://imgbb.host/images/GM9RG.jpeg",
       "description": "A modern office building in the Midtown area, close to major transportation hubs.",
       "price": "$4,200,000",
       "status": "sale",
@@ -86,7 +93,8 @@
     {
       "estate_title": "Westside Business Tower",
       "id": 8,
-      "segment_name": "Class C",
+      "segment_name": "Self-Storage",
+      "image": "https://imgbb.host/images/GMd2p.jpeg",
       "description": "A cost-effective office building with basic amenities, suitable for small offices.",
       "price": "$2,500 per month",
       "status": "rent",
@@ -98,7 +106,8 @@
     {
       "estate_title": "Harborfront Business Center",
       "id": 9,
-      "segment_name": "Class A",
+      "segment_name": "Mixed-Use Developments",
+      "image": "https://imgbb.host/images/GM4lc.jpeg",
       "description": "A waterfront office building with stunning views and premium facilities.",
       "price": "$6,000,000",
       "status": "sale",
@@ -107,4 +116,5 @@
       "facilities": ["rooftop terrace", "fitness center", "lounge"],
       "view_property_button": "View Property"
     }
+    
   ]

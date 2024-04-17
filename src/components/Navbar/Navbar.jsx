@@ -18,18 +18,18 @@ const Navbar = () => {
     })
   }
   return (
-    <div className="navbar fixed z-10 bg-white">
+    <div className="navbar">
   <div className="navbar-start">
-    <div className="dropdown">
+    <div className="dropdown ">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
       </div>
-      <ul tabIndex={0} className="menu text-xl w-[350px] menu-sm dropdown-content mt-3 z-[1] p-2 shadow  rounded-box ">
+      <ul tabIndex={0} className="menu text-xl   w-[350px] menu-sm dropdown-content mt-3  p-2 shadow  rounded-box ">
       <NavLink to='/' className={({isActive}) => isActive ? 'text-primary font-bold' : 'font-bold'}>Home</NavLink>
       <li>
         <details>
           <summary>Properties</summary>
-          <ul className="p-2 w-[350px] ">
+          <ul className="p-2 w-[350px] z-10 ">
             <li>
               <details >
                 <summary className="text-blue-500 text-base font-medium">Office Buildings</summary>
@@ -110,11 +110,11 @@ const Navbar = () => {
       <li>
         <details>
           <summary><a>Properties</a></summary>
-          <ul className="p-2 w-[350px] bg-slate-500 bg-opacity-40">
+          <ul className="p-2 w-[350px] bg-white z-10">
             <li>
               <details className="">
                 <summary className="text-blue-500 text-base font-medium">Office Buildings</summary>
-                <ul className="bg-slate-500 bg-opacity-40 rounded-lg">
+                <ul className="bg-slate-500 bg-opacity-30 rounded-lg">
                   <li className="pt-2 text-base font-bold text-slate-500">1. High-rise office towers</li>
                   <li className="pt-2 text-base font-bold text-slate-500">2. Low-rise office complexes</li>
                   <li className="pt-2 text-base font-bold text-slate-500">3. Shared office spaces or coworking</li>
@@ -124,7 +124,7 @@ const Navbar = () => {
             <li>
               <details>
                 <summary className="text-blue-500 text-base font-medium">Retail Spaces</summary>
-                <ul className="bg-slate-500 bg-opacity-40 rounded-lg">
+                <ul className="bg-slate-500 bg-opacity-30 rounded-lg">
                   <li className="pt-2 text-base font-bold text-slate-500">1. Standalone retail stores</li>
                   <li className="pt-2 text-base font-bold text-slate-500">2. Shopping malls or centers</li>
                   <li className="pt-2 text-base font-bold text-slate-500">3. Strip malls</li>
@@ -135,7 +135,7 @@ const Navbar = () => {
             <li>
               <details>
                 <summary className="text-blue-500 text-base font-medium">Warehouses</summary>
-                <ul className="bg-slate-500 bg-opacity-40 rounded-lg">
+                <ul className="bg-slate-500 bg-opacity-30 rounded-lg">
                   <li className="pt-2 text-base font-bold text-slate-500">1. Distribution centers</li>
                   <li className="pt-2 text-base font-bold text-slate-500">2. Industrial warehouses</li>
                   <li className="pt-2 text-base font-bold text-slate-500">3. Flex spaces (combination of office.)</li>
@@ -146,7 +146,7 @@ const Navbar = () => {
             <li>
               <details>
                 <summary className="text-blue-500 text-base font-medium">Industrial Facilities</summary>
-                <ul className="bg-slate-500 bg-opacity-40 rounded-lg">
+                <ul className="bg-slate-500 bg-opacity-30 rounded-lg">
                   <li className="pt-2 text-base font-bold text-slate-500">1. Manufacturing plants</li>
                   <li className="pt-2 text-base font-bold text-slate-500">1. Processing facilities</li>
                   <li className="pt-2 text-base font-bold text-slate-500">2. Industrial parks</li>
@@ -157,7 +157,7 @@ const Navbar = () => {
             <li>
               <details>
                 <summary className="text-blue-500 text-base font-medium">Restaurants</summary>
-                <ul className="bg-slate-500 bg-opacity-40 rounded-lg">
+                <ul className="bg-slate-500 bg-opacity-30 rounded-lg">
                   <li className="pt-2 text-base font-bold text-slate-500">1. Standalone restaurants</li>
                   <li className="pt-2 text-base font-bold text-slate-500">2. Bars and pubs</li>
                   <li className="pt-2 text-base font-bold text-slate-500">3. Nightclubs</li>
@@ -168,9 +168,9 @@ const Navbar = () => {
             <li>
               <details>
                 <summary className="text-blue-500 text-base font-medium">Entertainment Venues</summary>
-                <ul className="bg-slate-500 bg-opacity-40 rounded-lg">
+                <ul className="bg-slate-500 bg-opacity-30  rounded-lg">
                   <li className="pt-2 text-base font-bold text-slate-500">1. Movie theaters with multiple screens</li>
-                  <li className="pt-2 text-base font-bold text-slate-500">2. Outdoor cinemas or drive-ins</li>
+                  <li className="pt-2 text-base font-bold   text-slate-500">2. Outdoor cinemas or drive-ins</li>
                   <li className="pt-2 text-base font-bold text-slate-500">3. Music festivals or event spaces</li>
                 </ul>
               </details>
@@ -192,7 +192,7 @@ const Navbar = () => {
       <li>
         <details >
           <summary tabIndex={0} role="button" className="w-16 flex  rounded-full"><img alt="" src={userProfile} /></summary>
-          <ul className="p-2 text-lg font-medium bg-slate-400 bg-opacity-30 text-white w-[300px]">
+          <ul className="p-2 text-lg font-medium bg-white text-black w-[300px] z-10">
           {nameUser && <div>
           <li>{nameUser?.displayName}</li>
           </div>}
