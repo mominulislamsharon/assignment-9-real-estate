@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../components/Context/AuthProvider";
 import { FaFacebook, FaGoogle, FaGithub,FaEyeSlash, FaEye } from "react-icons/fa";
 import { ToastContainer, toast } from 'react-toastify';
@@ -8,6 +8,8 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const Login = () => {
   const [showPassword, setShowPassword] = useState(false);
+  const location = useLocation();
+  const navigate = useNavigate();
 
   useEffect(() => {
     const storedNameUser = localStorage.getItem('nameUser');
@@ -34,6 +36,10 @@ const Login = () => {
     loginUser(email, password)
     .then(result => {
       const loggedInUser = result.user;
+
+      // navigate
+      navigate(location?.state ? location.state : '/');
+
       setNameUser(loggedInUser);
       localStorage.setItem('nameUser', JSON.stringify(loggedInUser));
       toast.success('Login successful!');
@@ -48,6 +54,9 @@ const Login = () => {
     googleLogin()
     .then(result => {
       const loggedGoogleUser = result.user;
+      // navigate 
+      navigate(location?.state ? location.state : '/');
+      
       setNameUser(loggedGoogleUser);
       localStorage.setItem('nameUser', JSON.stringify(loggedGoogleUser));
       toast.success('Login successful!');

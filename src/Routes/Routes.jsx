@@ -5,6 +5,7 @@ import BannerLogRegister from "../Pages/Home/BannerLogRegister/BannerLogRegister
 import BannerLog from "../Pages/Home/BannerLog/BannerLog";
 import UpdateProfile from "../Pages/UpdateProfile/UpdateProfile";
 import Details from "../components/OfficeDetails/Details";
+import PrivateRoutes from "./PrivateRoutes";
 
 
 const router = createBrowserRouter([
@@ -18,7 +19,7 @@ const router = createBrowserRouter([
       },
       {
         path:'/officeDetails/:id',
-        element: <Details></Details>,
+        element: <PrivateRoutes><Details></Details></PrivateRoutes>,
       },
       {
         path:'/login',
@@ -30,7 +31,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/updateProfile',
-        element: <UpdateProfile></UpdateProfile>
+        element: <PrivateRoutes><UpdateProfile></UpdateProfile></PrivateRoutes>,
       }
     ]
   },

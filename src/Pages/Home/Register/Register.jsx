@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../../components/Context/AuthProvider";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -10,7 +10,8 @@ const Register = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [error, setError] = useState("");
   const [emailError, setEmailError] = useState()
-
+  const location = useLocation();
+  const navigate = useNavigate();
   const {registerUser} = useContext(AuthContext)
 
   const handleRegister = e => {
@@ -51,6 +52,8 @@ const Register = () => {
       console.log(result.user);
       toast.success('Registration successful!');
 
+      // navigate 
+      navigate(location?.state ? location.state : '/');
       // update profile 
       updateProfile(result.user,{
         displayName: name,
