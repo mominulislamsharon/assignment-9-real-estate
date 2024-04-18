@@ -6,7 +6,8 @@ import BannerLog from "../Pages/Home/BannerLog/BannerLog";
 import UpdateProfile from "../Pages/UpdateProfile/UpdateProfile";
 import Details from "../components/OfficeDetails/Details";
 import PrivateRoutes from "./PrivateRoutes";
-import Service from "../components/Services/Service";
+import About from "../components/About/About";
+import Contact from "../components/Contact/Contact";
 
 
 const router = createBrowserRouter([
@@ -35,8 +36,12 @@ const router = createBrowserRouter([
         element: <PrivateRoutes><UpdateProfile></UpdateProfile></PrivateRoutes>,
       },
       {
-        path: '/service',
-        element: <Service></Service>
+        path: '/about',
+        element: <About></About>,
+      },
+      {
+        path: '/contact',
+        element: <Contact></Contact>
       }
     ]
   },

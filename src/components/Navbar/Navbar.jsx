@@ -178,8 +178,22 @@ const Navbar = () => {
           </ul>
         </details>
       </li>
-      <NavLink to='/service' className={({isActive}) => isActive ? 'text-primary font-bold' : 'font-bold'}>Services</NavLink>
-      <NavLink className={({isActive}) => isActive ? 'text-primary font-bold' : 'font-bold'}>About Us</NavLink>
+      {/* <NavLink to='' className={({isActive}) => isActive ? 'text-primary font-bold' : 'font-bold'}>Contact</NavLink> */}
+      <li className="z-10">
+        <details>
+          <summary>Page</summary>
+          <ul className="p-2 w-[200px] pl-5 h-[100px] ">
+          <div><NavLink to='/about' className={({isActive}) => isActive ? 'text-primary font-bold' : 'font-bold'}>About Us</NavLink></div>
+          <div>
+          <NavLink to='/contact' className={({isActive}) => isActive ? 'text-primary font-bold' : 'font-bold'}>Contact</NavLink>
+          </div>
+          <div>
+          <NavLink to='' className={({isActive}) => isActive ? 'text-primary font-bold' : 'font-bold'}>Services</NavLink>
+          </div>
+          </ul>
+        </details>
+      </li>
+      {/* <NavLink to='/about' className={({isActive}) => isActive ? 'text-primary font-bold' : 'font-bold'}>About Us</NavLink> */}
       <NavLink to='/updateProfile' className={({isActive}) => isActive ? 'text-primary font-bold' : 'font-bold'}>Update Profile</NavLink>
     </ul>
   </div>
@@ -203,10 +217,6 @@ const Navbar = () => {
                :
                <Link to='/login'><button className="btn text-lg font-bold ">Login</button></Link>}
                </li>
-            <NavLink><a>Submenu 2</a></NavLink>
-            <li><a>Submenu 2</a></li>
-            <li><a>Submenu 2</a></li>
-            <li><a>Submenu 2</a></li>
           </ul>
         </details>
       </li>
