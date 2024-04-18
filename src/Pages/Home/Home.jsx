@@ -24,7 +24,7 @@ const Home = () => {
     fetch('officeBuldingData.json')
     .then(res => res.json())
     .then(data => setOfficeBulding(data))
-  },[]);
+  },[])
   return (
     <div>
       <BannerSlider></BannerSlider>
