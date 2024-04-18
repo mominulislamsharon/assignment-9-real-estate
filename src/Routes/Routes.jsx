@@ -6,6 +6,7 @@ import BannerLog from "../Pages/Home/BannerLog/BannerLog";
 import UpdateProfile from "../Pages/UpdateProfile/UpdateProfile";
 import Details from "../components/OfficeDetails/Details";
 import PrivateRoutes from "./PrivateRoutes";
+import Service from "../components/Services/Service";
 
 
 const router = createBrowserRouter([
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
       {
         path: '/updateProfile',
         element: <PrivateRoutes><UpdateProfile></UpdateProfile></PrivateRoutes>,
+      },
+      {
+        path: '/service',
+        element: <Service></Service>
       }
     ]
   },

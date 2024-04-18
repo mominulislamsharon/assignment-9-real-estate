@@ -178,7 +178,7 @@ const Navbar = () => {
           </ul>
         </details>
       </li>
-      <NavLink className={({isActive}) => isActive ? 'text-primary font-bold' : 'font-bold'}>Services</NavLink>
+      <NavLink to='/service' className={({isActive}) => isActive ? 'text-primary font-bold' : 'font-bold'}>Services</NavLink>
       <NavLink className={({isActive}) => isActive ? 'text-primary font-bold' : 'font-bold'}>About Us</NavLink>
       <NavLink to='/updateProfile' className={({isActive}) => isActive ? 'text-primary font-bold' : 'font-bold'}>Update Profile</NavLink>
     </ul>
