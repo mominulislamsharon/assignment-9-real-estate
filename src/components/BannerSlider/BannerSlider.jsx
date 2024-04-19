@@ -22,7 +22,7 @@ const BannerSlider = () => {
     <img src="https://i.pinimg.com/originals/9d/dd/09/9ddd097f08cd5b707c59f7f751fe36cb.jpg" className="w-full rounded-lg h-[600px]" />
     <div className='absolute top-[25%] pl-[3rem]'>
       <h1 className='text-3xl font-bold text-white '>Unlocking the Dream: <br /> Expert Real Estate Tips and Insights</h1>
-      <p className='text-[#ffcc41] pt-5'>The industry involves the buying, selling, and managing of properties for investment or personal use. <br /> It includes residential homes, commercial buildings, and undeveloped land.</p>
+      <p className='text-[#ffcc41] pt-5'>The industry involves the buying, selling, of properties for investment or personal use. <br /> It includes residential homes, commercial buildings, and undeveloped land.</p>
       <button className='text-white mt-6  ml-48 bg-[#ffcc41] w-[150px] h-[50px] rounded-md font-medium'>More Option</button>
     </div>
     </div>
