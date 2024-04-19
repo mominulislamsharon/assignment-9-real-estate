@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const Contact = () => {
@@ -69,7 +70,7 @@ const Contact = () => {
             <div className='bg-[#fbfbfb] rounded-lg  border pt-12 pl-10 pb-10'>
             <h1 className='text-3xl font-semibold'>Become a Real Estate Agent</h1>
             <p className='text-slate-400 pt-6'>Pri adhuc electram elaboraret at, et mei delicata iracundia adolescens, at ius dico eius his solum convenire ei nam.</p>
-            <button className='bg-[#ffcc41] mt-10 border-2 w-[150px] h-[50px] rounded-md'>Join our team</button>
+            <Link to="/contact"><button className='bg-[#ffcc41] mt-10 border-2 w-[150px] h-[50px] rounded-md'>Join our team</button></Link>
             </div>
             </div>
         </div>
