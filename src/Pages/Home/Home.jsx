@@ -29,12 +29,12 @@ const Home = () => {
     <div>
       <BannerSlider></BannerSlider>
       <div>
-          <div className="mt-20 pt-8 md:pl-16 rounded-md bg-[#e8ebf4] md:h-[350px] ">
-             <div className="text-center">
-              <h1 className="text-3xl font-bold ">Featured Property Types</h1>
+          <div  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1100"  className="mt-20 pt-8 md:pl-16 rounded-md bg-[#e8ebf4] md:h-[350px] ">
+             <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="1100" className="text-center">
+              <h1 className="text-3xl font-bold">Featured Property Types</h1>
               <p className="text-slate-400  pt-4 font-medium">Find All Type of Property.</p>
              </div>
-             <div className="grid grid-cols-1 md:grid-cols-5 gap-6 justify-center">
+             <div data-aos="zoom-in" data-aos-delay="1200" data-aos-duration="1000"  className="grid grid-cols-1 md:grid-cols-5 gap-6 justify-center">
              <div className="bg-white mt-6 rounded-lg cursor-pointer shadow-lg  h-[200px] md:w-[200px] md:h-[180px]">
               <div className="ml-16 pt-5 "><img className="w-[60px]   bg-green-300  rounded-full" src={OfficB} alt="" /></div>
               <h1 className="text-center pt-2 text-lg font-bold">Office & Studio</h1>
@@ -62,9 +62,9 @@ const Home = () => {
              </div>
              </div>
           </div>
-          <div>
-          <h1 className="text-center md:mt-12 text-3xl font-bold">Recent Property Listed</h1>
-          <p className="text-center pt-6 text-slate-500 font-medium ">Unlock your potential, seize opportunities, embrace challenges. Fuel your passion and inspire greatness within yourself</p>
+          <div> 
+          <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1100" className="text-center md:mt-12 text-3xl font-bold">Recent Property Listed</h1>
+          <p data-aos="fade-up" data-aos-duration="600" data-aos-delay="1200" className="text-center pt-6 text-slate-500 font-medium ">Unlock your potential, seize opportunities, embrace challenges. Fuel your passion and inspire greatness within yourself</p>
           </div>
           <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-6">
           {
@@ -72,51 +72,51 @@ const Home = () => {
           }
           </div>
       </div>
-      <div className="mt-16">
+      <div data-aos="fade-right" data-aos-duration="1000" className="mt-16">
         <h1 className="text-5xl font-semibold">See what others <br />
            said <NavLink to='/about' className='text-blue-600'>about us</NavLink></h1>
       </div>
       <div>
       <div className="flex flex-col md:flex-row md:items-center md:gap-6 mt-16">
-      <div className="avatar">
+      <div data-aos="fade-left" data-aos-duration="800" data-aos-delay="1000" className="avatar">
   <div className="w-24  rounded-full">
     <img src={agentProfile1} />
   </div>
 </div>
         <div>
-        <h1 className="text-2xl font-semibold">Tania Rutta <span className="text-lg font-medium"><sub>HOME INSPECTIOR</sub></span></h1>
-        <p className="pt-6 text-slate-400">An inspector evaluates operations and products to ensure compliance with standards, regulations, and quality criteria. They conduct assessments, identify issues, and recommend corrective actions for improvement.</p>
+        <h1 data-aos="fade-left" data-aos-duration="800" data-aos-delay="1000" className="text-2xl font-semibold">Tania Rutta <span className="text-lg font-medium"><sub>HOME INSPECTIOR</sub></span></h1>
+        <p data-aos="fade-left" data-aos-duration="800" data-aos-delay="1000" className="pt-6 text-slate-400">An inspector evaluates operations and products to ensure compliance with standards, regulations, and quality criteria. They conduct assessments, identify issues, and recommend corrective actions for improvement.</p>
         </div>
-      <div className="avatar">
+      <div data-aos="fade-left" data-aos-duration="800" data-aos-delay="1200" className="avatar">
   <div className="w-24  rounded-full">
     <img src={agentProfile2} />
   </div>
 </div>
         <div>
-        <h1 className="text-2xl font-semibold">Miraj Hossain <span className="text-lg font-medium"><sub>MANAGER</sub></span></h1>
-        <p className="pt-6 text-slate-400">A manager oversees teams and projects, ensuring goals are met efficiently. They plan, organize, and lead, while also coordinating resources, motivating employees, and making strategic decisions.</p>
+        <h1 data-aos="fade-left" data-aos-duration="800" data-aos-delay="1200" className="text-2xl font-semibold">Miraj Hossain <span className="text-lg font-medium"><sub>MANAGER</sub></span></h1>
+        <p data-aos="fade-left" data-aos-duration="800" data-aos-delay="1200" className="pt-6 text-slate-400">A manager oversees teams and projects, ensuring goals are met efficiently. They plan, organize, and lead, while also coordinating resources, motivating employees, and making strategic decisions.</p>
         </div>
       </div>
       </div>
       <div>
-      <div className="flex flex-col md:flex-row md:items-center md:gap-6 mt-16">
+      <div data-aos="fade-left" data-aos-duration="800" data-aos-delay="1000" className="flex flex-col md:flex-row md:items-center md:gap-6 mt-16">
       <div className="avatar">
   <div className="w-24  rounded-full">
     <img src={agentProfile3} />
   </div>
 </div>
         <div>
-        <h1 className="text-2xl font-semibold">Tubby Ina <span className="text-lg font-medium"><sub>AGENT</sub></span></h1>
-        <p className="pt-6 text-slate-400">AAn agent represents and acts on behalf of clients in various transactions, providing expertise, guidance, and advocacy. They facilitate deals, negotiate terms, and manage client relationships.</p>
+        <h1 data-aos="fade-left" data-aos-duration="800" data-aos-delay="1000" className="text-2xl font-semibold">Tubby Ina <span className="text-lg font-medium"><sub>AGENT</sub></span></h1>
+        <p data-aos="fade-left" data-aos-duration="800" data-aos-delay="1000" className="pt-6 text-slate-400">AAn agent represents and acts on behalf of clients in various transactions, providing expertise, guidance, and advocacy. They facilitate deals, negotiate terms, and manage client relationships.</p>
         </div>
-      <div className="avatar">
+      <div data-aos="fade-left" data-aos-duration="800" data-aos-delay="1200" className="avatar">
   <div className="w-24  rounded-full">
     <img src={agentProfile4} />
   </div>
 </div>
         <div>
-        <h1 className="text-2xl font-semibold">Ella Smith <span className="text-lg font-medium"><sub>SALES ADVISOR</sub></span></h1>
-        <p className="pt-6 text-slate-400">A sales advisor guides customers through purchasing decisions, offering product knowledge and personalized recommendations. They identify customer needs, resolve queries, and aim to achieve sales targets.</p>
+        <h1 data-aos="fade-left" data-aos-duration="800" data-aos-delay="1200" className="text-2xl font-semibold">Ella Smith <span className="text-lg font-medium"><sub>SALES ADVISOR</sub></span></h1>
+        <p data-aos="fade-left" data-aos-duration="800" data-aos-delay="1200" className="pt-6 text-slate-400">A sales advisor guides customers through purchasing decisions, offering product knowledge and personalized recommendations. They identify customer needs, resolve queries, and aim to achieve sales targets.</p>
         </div>
       </div>
       </div>

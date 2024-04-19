@@ -9,13 +9,13 @@ const BannerSlider = () => {
     return (
 
     <div className="carousel  w-full">
-  <div id="slide1" className="carousel-item  relative w-full">
-    <div className='relative w-full '>
-    <img src={sliderImg1} className="w-full h-[600px]" />
+  <div id="slide1" className="carousel-item relative w-full">
+    <div className='relative  w-full '>
+    <img data-aos="zoom-in-up" data-aos-duration="1000" src={sliderImg1} className="w-full rounded-lg h-[600px]" />
     <div className='absolute top-[25%] pl-[3rem]'>
-      <h1 className='text-3xl font-bold text-white '>Unlocking the Dream: <br /> Expert Real Estate Tips and Insights</h1>
-      <p className='text-white pt-6'>The industry involves the buying, selling, and managing of properties for investment or personal use. It includes residential homes, commercial buildings, and undeveloped land.</p>
-      <button className='text-white mt-6  ml-48 bg-[#ffcc41] w-[150px] h-[50px] rounded-md font-medium'>More Option</button>
+      <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="1000" className='text-3xl font-bold text-white '>Unlocking the Dream: <br /> Expert Real Estate Tips and Insights</h1>
+      <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="1200" className='text-[#ffcc41] pt-5'>The industry involves the buying, selling, and managing of properties for investment or personal use. <br /> It includes residential homes, commercial buildings, and undeveloped land.</p>
+      <button data-aos="fade-up" data-aos-duration="800" data-aos-delay="1400" className='text-white mt-6  ml-48 bg-[#ffcc41] w-[150px] h-[50px] rounded-md font-medium'>More Option</button>
     </div>
     </div>
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -25,10 +25,10 @@ const BannerSlider = () => {
   </div> 
   <div id="slide2" className="carousel-item relative w-full">
   <div className='relative w-full '>
-    <img src={sliderImg2} className="w-full h-[600px]" />
+    <img src={sliderImg2} className="w-full rounded-lg h-[600px]" />
     <div className='absolute top-[25%] pl-[3rem]'>
       <h1 className='text-3xl font-bold text-white '>Unlocking the Dream: <br /> Expert Real Estate Tips and Insights</h1>
-      <p className='text-white pt-6'>The industry involves the buying, selling, and managing of properties for investment or personal use. It includes residential homes, commercial buildings, and undeveloped land.</p>
+      <p className='text-[#ffcc41] pt-5'>The industry involves the buying, selling, and managing of properties for investment or personal use. <br /> It includes residential homes, commercial buildings, and undeveloped land.</p>
       <button className='text-white mt-6  ml-48 bg-[#ffcc41] w-[150px] h-[50px] rounded-md font-medium'>More Option</button>
     </div>
     </div>
@@ -39,10 +39,10 @@ const BannerSlider = () => {
   </div> 
   <div id="slide3" className="carousel-item relative w-full">
   <div className='relative w-full '>
-    <img src={sliderImg3} className="w-full h-[600px]" />
+    <img src={sliderImg3} className="w-full rounded-lg h-[600px]" />
     <div className='absolute top-[25%] pl-[3rem]'>
       <h1 className='text-3xl font-bold text-white '>Unlocking the Dream: <br /> Expert Real Estate Tips and Insights</h1>
-      <p className='text-white pt-6'>The industry involves the buying, selling, and managing of properties for investment or personal use. It includes residential homes, commercial buildings, and undeveloped land.</p>
+      <p className='text-[#ffcc41] pt-5'>The industry involves the buying, selling, and managing of properties for investment or personal use. <br /> It includes residential homes, commercial buildings, and undeveloped land.</p>
       <button className='text-white mt-6  ml-48 bg-[#ffcc41] w-[150px] h-[50px] rounded-md font-medium'>More Option</button>
     </div>
     </div>
@@ -53,10 +53,10 @@ const BannerSlider = () => {
   </div> 
   <div id="slide4" className="carousel-item relative w-full">
   <div className='relative w-full '>
-    <img src={sliderImg4} className="w-full h-[600px]" />
+    <img src={sliderImg4} className="w-full rounded-lg h-[600px]" />
     <div className='absolute top-[25%] pl-[3rem]'>
       <h1 className='text-3xl font-bold text-white '>Unlocking the Dream: <br /> Expert Real Estate Tips and Insights</h1>
-      <p className='text-white pt-6'>The industry involves the buying, selling, and managing of properties for investment or personal use. It includes residential homes, commercial buildings, and undeveloped land.</p>
+      <p className='text-[#ffcc41] pt-5'>The industry involves the buying, selling, and managing of properties for investment or personal use. <br /> It includes residential homes, commercial buildings, and undeveloped land.</p>
       <button className='text-white mt-6  ml-48 bg-[#ffcc41] w-[150px] h-[50px] rounded-md font-medium'>More Option</button>
     </div>
     </div>
@@ -67,10 +67,10 @@ const BannerSlider = () => {
   </div>
   <div id="slide5" className="carousel-item relative w-full">
   <div className='relative w-full '>
-    <img src={sliderImg5} className="w-full h-[600px]" />
+    <img src={sliderImg5} className="w-full rounded-lg h-[600px]" />
     <div className='absolute top-[25%] pl-[3rem]'>
       <h1 className='text-3xl font-bold text-white '>Unlocking the Dream: <br /> Expert Real Estate Tips and Insights</h1>
-      <p className='text-white pt-6'>The industry involves the buying, selling, and managing of properties for investment or personal use. It includes residential homes, commercial buildings, and undeveloped land.</p>
+      <p className='text-[#ffcc41] pt-5'>The industry involves the buying, selling, and managing of properties for investment or personal use. <br /> It includes residential homes, commercial buildings, and undeveloped land.</p>
       <button className='text-white mt-6  ml-48 bg-[#ffcc41] w-[150px] h-[50px] rounded-md font-medium'>More Option</button>
     </div>
     </div>
@@ -81,10 +81,10 @@ const BannerSlider = () => {
   </div>
   <div id="slide6" className="carousel-item relative w-full">
   <div className='relative w-full '>
-    <img src={sliderImg6} className="w-full h-[600px]" />
+    <img src={sliderImg6} className="w-full rounded-lg h-[600px]" />
     <div className='absolute top-[25%] pl-[3rem]'>
       <h1 className='text-3xl font-bold text-white '>Unlocking the Dream: <br /> Expert Real Estate Tips and Insights</h1>
-      <p className='text-white pt-6'>The industry involves the buying, selling, and managing of properties for investment or personal use. It includes residential homes, commercial buildings, and undeveloped land.</p>
+      <p className='text-[#ffcc41] pt-5'>The industry involves the buying, selling, and managing of properties for investment or personal use. <br /> It includes residential homes, commercial buildings, and undeveloped land.</p>
       <button className='text-white mt-6  ml-48 bg-[#ffcc41] w-[150px] h-[50px] rounded-md font-medium'>More Option</button>
     </div>
     </div>

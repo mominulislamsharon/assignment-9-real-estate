@@ -8,12 +8,14 @@ import Details from "../components/OfficeDetails/Details";
 import PrivateRoutes from "./PrivateRoutes";
 import About from "../components/About/About";
 import Contact from "../components/Contact/Contact";
+import Error from "./Error";
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement: <Error></Error>,
     children: [
       {
         path: '/',

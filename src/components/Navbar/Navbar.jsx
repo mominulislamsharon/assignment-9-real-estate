@@ -24,12 +24,12 @@ const Navbar = () => {
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
       </div>
-      <ul tabIndex={0} className="menu text-xl   w-[350px] menu-sm dropdown-content mt-3 z-[1] p-2 shadow  rounded-box ">
+      <ul tabIndex={0} className="menu text-xl   bg-white w-[350px] menu-sm dropdown-content mt-3 z-[1] p-2 shadow  rounded-box ">
       <NavLink to='/' className={({isActive}) => isActive ? 'text-primary font-bold' : 'font-bold'}>Home</NavLink>
       <li>
         <details>
           <summary>Properties</summary>
-          <ul className="p-2 w-[350px] z-10 ">
+          <ul className="p-2 w-[350px]  z-10 ">
             <li>
               <details >
                 <summary className="text-blue-500 text-base font-medium">Office Buildings</summary>
@@ -97,8 +97,20 @@ const Navbar = () => {
           </ul>
         </details>
       </li>
-      <NavLink className={({isActive}) => isActive ? 'text-primary font-bold' : 'font-bold'}>Services</NavLink>
-      <NavLink className={({isActive}) => isActive ? 'text-primary font-bold' : 'font-bold'}>About Us</NavLink>
+      <li className="z-10">
+        <details>
+          <summary>Page</summary>
+          <ul className="p-2 w-[200px] pl-5 h-[100px] ">
+          <div><NavLink to='/about' className={({isActive}) => isActive ? 'text-primary font-bold' : 'font-bold'}>About Us</NavLink></div>
+          <div>
+          <NavLink to='/contact' className={({isActive}) => isActive ? 'text-primary font-bold' : 'font-bold'}>Contact</NavLink>
+          </div>
+          <div>
+          <NavLink to='/services' className={({isActive}) => isActive ? 'text-primary font-bold' : 'font-bold'}>Services</NavLink>
+          </div>
+          </ul>
+        </details>
+      </li>
       <NavLink to='/updateProfile' className={({isActive}) => isActive ? 'text-primary font-bold' : 'font-bold'}>Update Profile</NavLink>
       </ul>
     </div>
@@ -178,7 +190,6 @@ const Navbar = () => {
           </ul>
         </details>
       </li>
-      {/* <NavLink to='' className={({isActive}) => isActive ? 'text-primary font-bold' : 'font-bold'}>Contact</NavLink> */}
       <li className="z-10">
         <details>
           <summary>Page</summary>
@@ -188,12 +199,11 @@ const Navbar = () => {
           <NavLink to='/contact' className={({isActive}) => isActive ? 'text-primary font-bold' : 'font-bold'}>Contact</NavLink>
           </div>
           <div>
-          <NavLink to='' className={({isActive}) => isActive ? 'text-primary font-bold' : 'font-bold'}>Services</NavLink>
+          <NavLink to='/services' className={({isActive}) => isActive ? 'text-primary font-bold' : 'font-bold'}>Services</NavLink>
           </div>
           </ul>
         </details>
       </li>
-      {/* <NavLink to='/about' className={({isActive}) => isActive ? 'text-primary font-bold' : 'font-bold'}>About Us</NavLink> */}
       <NavLink to='/updateProfile' className={({isActive}) => isActive ? 'text-primary font-bold' : 'font-bold'}>Update Profile</NavLink>
     </ul>
   </div>
